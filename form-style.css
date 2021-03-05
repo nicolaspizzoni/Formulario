@@ -132,16 +132,16 @@ body {
 	background: #A020F0;
 
 	cursor: pointer;
+	
+	transition: 1s ease;
 }
 
 .botao:hover {
 	border-bottom: 3px solid green;
-	width: 11rem;
-	height: 2.3rem;
 
 	background: #9370DB;
 
-	font-size: 18px;
+	transform: scale(1.2);
 }
 
 .dados-gerais div input:focus, .formail input:focus {
